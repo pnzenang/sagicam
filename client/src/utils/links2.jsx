@@ -50,11 +50,11 @@ const links2 = [
   //   icon: <RiUserSettingsLine />,
   // },
 
-  // {
-  //   text: 'death announcement',
-  //   path: 'announcement',
-  //   icon: <MdOutlineAnnouncement />,
-  // },
+  {
+    text: 'death announcement',
+    path: 'announcement',
+    icon: <MdOutlineAnnouncement />,
+  },
 
   // {
   //   text: 'stats',

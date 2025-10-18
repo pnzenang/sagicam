@@ -209,7 +209,28 @@
 
 // export default DeathAnnouncement
 
+// const DeathAnnouncement = () => {
+//   return <div>DeathAnnouncement</div>;
+// };
+// export default DeathAnnouncement;
+
+import React from 'react'
+
 const DeathAnnouncement = () => {
-  return <div>DeathAnnouncement</div>;
-};
-export default DeathAnnouncement;
+  return (
+    <div>
+      <h1 className='text-4xl py-36 '>
+        Sorry about your loss.
+        <br />
+        Please announce your death by sending an email to one of the following
+        SAGI emails: <span className='font-bold'>info@sagicam.org</span>
+        <br />
+        <br />
+        And be reminded that no documentation is needed while to announce a
+        death.
+      </h1>
+    </div>
+  )
+}
+
+export default DeathAnnouncement
