@@ -138,7 +138,7 @@ export default function TabsRender() {
                 membership with matriculation number, between 30 days and 180
                 days, the family receives $1,000, between 181 days and 365
                 months the family receive $2,000 and beyond 12 months the family
-                receives $6,000 when the loved ones is up to date in all his financial obligations
+                receives $6,000 when the loved ones is up to date in all his financial obligations.
               </p>
             </details>
             <details className='w-full border rounded-lg'>
