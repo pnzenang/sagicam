@@ -92,7 +92,8 @@ export const validateRegisterInput = withValidationErrors([
     .notEmpty()
     .withMessage('last ans/or middle names are required'),
   body('email')
-    .notEmpty().toLowerCase()
+    .notEmpty()
+    .toLowerCase()
     .withMessage('email is required')
     .isEmail()
     .withMessage('invalid email format')
@@ -104,7 +105,8 @@ export const validateRegisterInput = withValidationErrors([
     }),
   body('phoneNumber').notEmpty().withMessage('phone number required'),
   body('associationCode')
-    .notEmpty().toLowerCase()
+    .notEmpty()
+    .toLowerCase()
     .withMessage('association code is required')
     .isLength({ min: 4, max: 4 })
     .withMessage('association code should have 4 letters')
@@ -135,7 +137,8 @@ export const validateRegisterInput = withValidationErrors([
 
 export const validateLoginInput = withValidationErrors([
   body('email')
-    .notEmpty().toLowerCase()
+    .notEmpty()
+    .toLowerCase()
     .withMessage('email is required')
     .isEmail()
     .withMessage('invalid email format'),
