@@ -135,9 +135,10 @@ export default function TabsRender() {
               </summary>
               <p className='px-4 py-6 pt-0 ml-4 -mt-4 text-primary'>
                 It really depends on how long the member has been a member; for
-                membership with matriculation number, between 0 to 6 months, the
-                family receives up to $500, between 7 t0 12 months the family
-                receive $1,000 and beyond 12 months the family receives $6,000
+                membership with matriculation number, between 30 days and 180
+                days, the family receives up to $2,000, between 181 days and 365
+                months the family receive $2,000 and beyond 12 months the family
+                receives $6,000
               </p>
             </details>
             <details className='w-full border rounded-lg'>
