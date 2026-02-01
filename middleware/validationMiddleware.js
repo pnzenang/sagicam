@@ -104,15 +104,7 @@ export const validateRegisterInput = withValidationErrors([
       }
     }),
   body('phoneNumber').notEmpty().withMessage('phone number required'),
-  body('associationCode')
-    .notEmpty()
-    .toLowerCase()
-    .withMessage('association code is required')
-    .isLength({ min: 4, max: 4 })
-    .withMessage('association code should have 4 letters')
-    .isAlpha()
-    .withMessage('Code must only contain letters')
-    .custom(async (associationCode) => {
+  body('associationCode').notEmpty().toLowerCase().withMessage('association code is required').isLength({ min: 4, max: 4 }).withMessage('association code should have 4 letters').isAlpha().withMessage('Code must only contain letters').custom(async (associationCode) => {
       const user = await User.findOne({ associationCode });
       if (user) {
         throw new BadRequestError(
