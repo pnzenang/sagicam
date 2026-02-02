@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DeathAnnouncement = () => {
+const Updates = () => {
   return (
     <div>
       <h1 className='text-4xl py-36 '>
@@ -17,4 +17,4 @@ const DeathAnnouncement = () => {
   )
 }
 
-export default DeathAnnouncement
+export default Updates
