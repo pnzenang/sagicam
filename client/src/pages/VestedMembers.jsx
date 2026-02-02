@@ -7,7 +7,7 @@ const DeathAnnouncement = () => {
         Sorry about your loss.
         <br />
         Please announce your death by sending an email to one of the following
-        SAGI emails: <span className='font-bold'>https://whatsapp.com/channel/0029Vb79q1vDp2QA0Iq8M608</span>
+        SAGI emails: <span className='font-bold'> <a href="https://whatsapp.com/channel/0029Vb79q1vDp2QA0Iq8M608">https://whatsapp.com/channel/0029Vb79q1vDp2QA0Iq8M608</a> </span>
         <br />
         <br />
         And be reminded that no documentation is needed to announce a
