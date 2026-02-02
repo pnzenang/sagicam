@@ -226,7 +226,7 @@ const DeathAnnouncement = () => {
         SAGI emails: <span className='font-bold'>info@sagicam.org</span>
         <br />
         <br />
-        And be reminded that no documentation is needed while to announce a
+        And be reminded that no documentation is needed to announce a
         death.
       </h1>
     </div>
