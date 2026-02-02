@@ -1,13 +1,20 @@
-const VestedMembers = () => {
+import React from 'react'
+
+const DeathAnnouncement = () => {
   return (
-    <div className='h-full '>
-      <iframe
-        width='100%'
-        height='800'
-        className='mx-auto'
-        src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQTa_678Qg3VLM61-M8a15J_OP70fu_fHsJdRicHfXfrNPkQtGc9j-UD8cDWZKNML7rNMpMyDM08pQy/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false'
-      ></iframe>
+    <div>
+      <h1 className='text-4xl py-36 '>
+        Sorry about your loss.
+        <br />
+        Please announce your death by sending an email to one of the following
+        SAGI emails: <span className='font-bold'>https://whatsapp.com/channel/0029Vb79q1vDp2QA0Iq8M608</span>
+        <br />
+        <br />
+        And be reminded that no documentation is needed to announce a
+        death.
+      </h1>
     </div>
-  );
-};
-export default VestedMembers;
+  )
+}
+
+export default DeathAnnouncement
